@@ -3,6 +3,6 @@
 @section('content')
     <div class="container py-5 text-center">
         <h1 class="fw-bold">Prototipo Control de Inventario</h1>
-        {{-- <a href="{{ route('client.index') }}" class="btn btn-primary">Clientes</a> --}}
+        <a href="{{ route('product.index') }}" class="btn btn-primary">Productos</a>
     </div>
 @endsection

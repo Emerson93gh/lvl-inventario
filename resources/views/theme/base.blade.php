@@ -18,15 +18,15 @@
     <div class="container">
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
 
-            <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <a href="{{ url('/') }}" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
                 <img src="{{ asset('assets/svg/store-svgrepo-com.svg') }}" alt="logo" width="60" height="60">
                 {{-- <i class="bi bi-shop-window" style="font-size: 2em"></i> --}}
                 <span class="fs-4 mx-2">ES</span>
             </a>
 
             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link secondary">Features</a></li>
+                <li class="nav-item"><a href="{{ url('/') }}" class="nav-link active" aria-current="page">Inicio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link secondary">Productos</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">About</a></li>
@@ -50,7 +50,7 @@
         <footer class="d-flex flex-wrap fixed-bottom justify-content-between align-items-center py-3 my-4 mx-5 border-top">
             <p class="col-md-4 mb-0 text-muted">© 2023 Company, Inc</p>
 
-            <a href="#"
+            <a href="{{ url('/') }}"
                 class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
                 {{-- <!-- <svg class="bi me-2" width="40" height="32">
                     <use xlink:href="#bootstrap"></use>
@@ -59,8 +59,8 @@
             </a>
 
             <ul class="nav col-md-4 justify-content-end">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+                <li class="nav-item"><a href="{{ url('/') }}" class="nav-link px-2 text-muted">Inicio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Productos</a></li>
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
