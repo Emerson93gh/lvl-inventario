@@ -17,23 +17,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
-    <div class="bg-image"
-        style="background-image: url('https://wallpaperaccess.com/full/539822.jpg');
-        height: 100vh">
+    {{-- <div class="bg-image"
+        style="background-image: url('https://cdn.wallpapersafari.com/49/73/mcEn0H.jpg');
+        height: 100vh"> --}}
+    <div class="bg-success p-2" style="--bs-bg-opacity: .2;">
 
     {{-- NavBar --}}
     <section>
         <div class="container pb-5">
-            {{-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid border-bottom">
-
-
-
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-            </nav> --}}
             <nav class="navbar bg-body-tertiary sticky-top">
                 <div class="container-fluid">
                   {{-- <a class="navbar-brand" href="#">Offcanvas navbar</a> fixed-top --}}

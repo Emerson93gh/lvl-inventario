@@ -20,8 +20,8 @@
 
     <div class="container py-2 text-center">
         <div class="table-responsive py-3">
-            <table class="table table-info">
-                <thead>
+            <table class="table table-light table-striped table-bordered border-primary">
+                <thead class="table-primary">
                     <tr>
                         <th scope="col">Id</th>
                         <th scope="col">Categoría</th>

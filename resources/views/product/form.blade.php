@@ -1,7 +1,7 @@
 @extends('theme.base')
 
 @section('content')
-    <div class="container text-center" style="width: 70%">
+    <div class="container mb-5 text-center" style="width: 80%">
         <div class="d-flex justify-content-center">
             {{-- Existe un producto? --}}
             @if (isset($product))
@@ -26,7 +26,7 @@
                     a
                 </div> --}}
 
-                <div class="row py-2 my-2">
+                <div class="row py-2 mb-5 justify-content-center">
                     <div class="col-md-2 my-2">
                         <label for="categoria" class="col-form-label fw-bold">Categoría:</label>
                     </div>
