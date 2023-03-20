@@ -35,8 +35,8 @@ class ProductController extends Controller
     {
         // validacion del formulario / reglas / gte = mayor o igual a: 0
         $request->validate([
-            'categoria' => 'required|max:15',
-            'nombre' => 'required|max:15',
+            'categoria' => 'required|max:20',
+            'nombre' => 'required|max:20',
             'costo_unitario' => 'required|gte:0',
             'precio_unitario' => 'required|gte:0',
             'en_stock' => 'required|gte:0'
@@ -76,8 +76,8 @@ class ProductController extends Controller
     {
         // validacion del formulario / reglas / gte = mayor o igual a: 0
         $request->validate([
-            'categoria' => 'required|max:15',
-            'nombre' => 'required|max:15',
+            'categoria' => 'required|max:20',
+            'nombre' => 'required|max:20',
             'costo_unitario' => 'required|gte:0',
             'precio_unitario' => 'required|gte:0',
             'en_stock' => 'required|gte:0'

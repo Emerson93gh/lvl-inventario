@@ -27,7 +27,14 @@
                         <label for="categoria" class="col-form-label fw-bold">Categoría:</label>
                     </div>
                     <div class="col-md-4 my-2">
-                        <input type="text" name="categoria" id="categoria" class="form-control" placeholder="Ingresar la categoria" value="{{ old('categoria') ?? @$product->categoria }}">
+                        <input name="categoria" id="categoria" class="form-control" list="datalistOptions" autofocus="autofocus" placeholder="Seleccionar la categoria" value="{{ old('categoria') ?? @$product->categoria }}">
+                        <datalist id="datalistOptions">
+                            <option value="Alimentos">
+                            <option value="Bebidas">
+                            <option value="Carnes">
+                            <option value="Cuidado Personal">
+                            <option value="Vegetales">
+                          </datalist>
                         @error('categoria')
                             <p class="form-text text-danger"> {{ $message }} </p>
                         @enderror
