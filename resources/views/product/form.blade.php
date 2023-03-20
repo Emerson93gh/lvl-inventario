@@ -22,10 +22,6 @@
                 {{-- Token para mayor seguridad del formulario, csrf --}}
                 @csrf
 
-                {{-- <div class="row g-3 align-items-center py-2 justify-content-center">
-                    a
-                </div> --}}
-
                 <div class="row py-2 mb-5 justify-content-center">
                     <div class="col-md-2 my-2">
                         <label for="categoria" class="col-form-label fw-bold">Categoría:</label>
@@ -81,7 +77,6 @@
                         <button type="submit" class="btn btn-primary fw-bold">Guardar</button>
                     @endif
                 </div>
-
             </form>
         </div>
     </div>

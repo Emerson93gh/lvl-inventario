@@ -50,26 +50,11 @@
                                 </form>
                             </td>
                         </tr>
-                        {{-- <tr class="">
-                            <td scope="row">Item</td>
-                            <td>Item</td>
-                            <td>Item</td>
-                            <td>Item</td>
-                            <td>Item</td>
-                            <td>Item</td>
-                            <td>Item</td>
-                        </tr> --}}
                     @empty
                         <tr class="">
                             <td scope="row" colspan="7">NO HAY REGISTROS!</td>
                         </tr>
                     @endforelse
-
-                    {{-- <tr class="">
-                        <td scope="row">Item</td>
-                        <td>Item</td>
-                        <td>Item</td>
-                    </tr> --}}
                 </tbody>
             </table>
             {{-- PAGINACION --}}

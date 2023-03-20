@@ -15,7 +15,7 @@ class ProductController extends Controller
     public function index()
     {
         //return view('product.index');
-        $products = Product::paginate(4); // contando desde 0 a 4 = 5
+        $products = Product::paginate(5); // mostrar 5 registros
         return view('product.index')
             ->with('products',$products);
     }
