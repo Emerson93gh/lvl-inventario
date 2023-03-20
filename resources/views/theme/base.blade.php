@@ -49,7 +49,7 @@
                           <a class="nav-link" href="{{ url('/product') }}"><i class="bi bi-journal-bookmark"></i> Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="bi bi-code-square"></i> Repositorio</a>
+                            <a class="nav-link" href="https://github.com/Emerson93gh/lvl-inventario.git" target="_blank"><i class="bi bi-code-square"></i> Repositorio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://github.com/Emerson93gh" target="_blank"><i class="bi bi-github"></i> GitHub</a>
@@ -88,7 +88,7 @@
                     <ul class="nav col-md-4 justify-content-end">
                         <li class="nav-item"><a href="{{ url('/') }}" class="nav-link px-2 text-muted"><i class="bi bi-shop-window"></i> Inicio</a></li>
                         <li class="nav-item"><a href="{{ url('/product') }}" class="nav-link px-2 text-muted"><i class="bi bi-journal-bookmark"></i> Productos</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="bi bi-code-square"></i> Repositorio</a></li>
+                        <li class="nav-item"><a href="https://github.com/Emerson93gh/lvl-inventario.git" target="_blank" class="nav-link px-2 text-muted"><i class="bi bi-code-square"></i> Repositorio</a></li>
                         <li class="nav-item"><a href="https://github.com/Emerson93gh" target="_blank" class="nav-link px-2 text-muted"><i class="bi bi-github"></i></a></li>
                         <li class="nav-item"><a href="https://www.linkedin.com/in/emerson-s-24786247" target="_blank" class="nav-link px-2 text-muted"><i class="bi bi-linkedin"></i></a></li>
                     </ul>
