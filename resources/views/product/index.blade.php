@@ -10,9 +10,9 @@
                 <a href="{{ route('product.create') }}" class="btn btn-primary">Crear Producto</a>
             </div>
             @if (Session::has('mensaje'))
-                    <div class="alert alert-info my-5">
+                    <div class="alert alert-info my-5 alert-dismissible fade show" role="alert">
                         {{ Session::get('mensaje') }}
-
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
                 @endif
         </div>
